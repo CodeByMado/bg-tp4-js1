@@ -1,3 +1,5 @@
+"use strict";
+
 //declaration des variables constantes
 const Nom="John";
 const Prenom="Doe";
