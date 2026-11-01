@@ -6,12 +6,17 @@
     <title>exercice1</title>
 </head>
 <body>
+     <!-- Chaque bouton déclenche l'événement onclick qui appelle une fonction
+       définie dans le fichier externe script.js (événement : slide 21,
+       fonction appelée depuis un fichier JS externe : slide 25) -->
     <button onclick="f1()">Nom</button>
     <button onclick="f2()">Prenom</button>
     <button onclick="f3()">Nom & prenom</button>
     <button onclick="f4()">Age</button>
     <button onclick="f5()">Note</button>
     <button onclick="f6()">Pi</button>
+     <!-- Méthode 3 : fichier JS externe (slide 25), placé à la fin du body
+       pour que la page soit chargée avant l'exécution du script (slide 28) -->
     <script src="script.js"></script>
 </body>
 </html>
